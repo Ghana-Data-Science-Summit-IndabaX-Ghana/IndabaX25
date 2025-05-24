@@ -28,8 +28,8 @@ To set up the environment for this workshop:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/LLMs-for-Text-Generation-Summarization.git
-cd LLMs-for-Text-Generation-Summarization
+git clone https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX25.git
+cd IndabaX25/LLMs-for-Text-Generation-Summarization
 
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
@@ -41,7 +41,6 @@ pip install -r requirements.txt
 # Set up environment variables
 # Create a .env file with the following:
 # OPENROUTER_API_KEY=your_api_key_here
-# OPENROUTER_API_URL=https://openrouter.ai/api/v1
 ```
 
 ## Project Structure
@@ -51,8 +50,7 @@ pip install -r requirements.txt
 ├── .gitignore                                      # Git ignore file
 ├── requirements.txt                                # Python dependencies
 ├── PRE-TUTORIAL.md                                 # Pre-reading materials
-├── article.txt                                     # Sample article for summarization
-├── reference_summary.txt                           # Gold standard summary
+├── articles/                                        # Contains articles
 └── images/                                         # Images for visualization
 ```
 
