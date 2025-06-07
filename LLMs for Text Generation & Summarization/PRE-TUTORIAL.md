@@ -8,6 +8,7 @@
 - https://ig.ft.com/generative-ai/
 
 ### 2. Overview of different LLM categories (autoregressive, encoder-only, encoder-decoder)
+<!-- Please provide learning resources for this item -->
 
 ### 3. Warm-up Assignment:
 

@@ -22,14 +22,14 @@ Before attending the workshop, participants should:
 - Be familiar with fundamental NLP concepts
 - Complete the pre-reading materials (see [PRE-TUTORIAL.md](PRE-TUTORIAL.md))
 
-## Installation
+## Installation <!-- This might be better as Environment Setup -->
 
-To set up the environment for this workshop:
+To set up the environment for this workshop:<!-- Mention assumptions or expectations like operating systems, and prior installations (python, venv, pip) -->
 
 ```bash
 # Clone the repository
 git clone https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX25.git
-cd IndabaX25/LLMs-for-Text-Generation-Summarization
+cd IndabaX25/LLMs-for-Text-Generation-Summarization <!-- Folder name mismatch. You might want to use cd LLMs\ for\ Text\ Generation\ \&\ Summarization -->
 
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
@@ -75,9 +75,9 @@ The workshop is divided into three main parts:
 - Advanced evaluation beyond ROUGE
 - Practical exercises for building custom systems
 
-## Key Features
+## Key Features <!-- This might be better as Workshop Objectives, and moved up to be the second section just after the Overview -->
 
-- **Multiple Summarization Approaches**: Compare extractive, abstractive, and hybrid techniques
+- **Multiple Summarization Approaches**: Compare extractive, abstractive, and hybrid techniques <!-- Rephase each of these to highlight expected learning objectives: "You will be able to..." -->
 - **Advanced Control Parameters**: Learn to control summary length, style, and focus
 - **Comprehensive Evaluation**: Go beyond ROUGE with factual consistency and semantic similarity
 - **Multi-Stage Pipelines**: Combine techniques for more effective summarization
