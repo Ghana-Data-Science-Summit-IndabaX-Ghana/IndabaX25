@@ -66,7 +66,7 @@ Topics:
 3. [Neural Architecture Search (NAS)](#NAS)  
 4. [Post-Training Quantization](#Code)  
 5. [Quantization-Aware Training (QAT)](#QAT)  
-6. [Conclusion & Reflections](#Conclusion)  
+6. [Conclusion](#Conclusion)  
 7. [References](#References)
 
 <!-- Colab Badge -->
