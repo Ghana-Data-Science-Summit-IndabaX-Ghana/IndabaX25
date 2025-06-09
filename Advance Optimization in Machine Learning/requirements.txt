@@ -10,7 +10,9 @@ keras>=2.6.0
 
 # Advanced Optimization Tools
 optuna>=2.10.0     # Hyperparameter optimization
+tensorflow-model-optimization      
 
 # Utils
 tqdm>=4.62.0        
 scikit-learn>1.0.0 # For data preprocessing 
+Grown
