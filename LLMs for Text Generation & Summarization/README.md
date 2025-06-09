@@ -6,6 +6,13 @@ This repository contains materials for a comprehensive workshop on leveraging La
 
 The workshop explores modern approaches to text summarization using transformer-based architectures, covering both extractive and abstractive techniques. Participants will gain practical experience implementing multi-stage summarization pipelines and evaluating their quality using various metrics.
 
+## Workshop Objectives
+
+- **You will be able to compare multiple summarization approaches**: Understand and apply extractive, abstractive, and hybrid techniques for text summarization.
+- **You will be able to control summary generation**: Learn how to adjust summary length, style, and focus using advanced control parameters.
+- **You will be able to evaluate summaries comprehensively**: Go beyond ROUGE by assessing factual consistency and semantic similarity.
+- **You will be able to build multi-stage summarization pipelines**: Combine different techniques to create more effective summarization systems.
+
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
@@ -22,14 +29,22 @@ Before attending the workshop, participants should:
 - Be familiar with fundamental NLP concepts
 - Complete the pre-reading materials (see [PRE-TUTORIAL.md](PRE-TUTORIAL.md))
 
-## Installation
+## Environment setup
+
+### Assumptions & Requirements
+
+- **Operating System**: This workshop is designed for Linux, macOS, or Windows (with WSL recommended for Windows users).
+- **Python**: Python 3.8 or higher should be installed on your system. [Download Python](https://www.python.org/downloads/)
+- **pip**: Python's package manager (pip) should be available. It is included by default with most Python installations.
+- **venv**: The built-in Python virtual environment tool (`venv`) is used for environment isolation. No additional installation is needed if you have Python 3.8+.
+- **git**: Required for cloning the repository. [Download Git](https://git-scm.com/downloads)
 
 To set up the environment for this workshop:
 
 ```bash
 # Clone the repository
 git clone https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX25.git
-cd IndabaX25/LLMs-for-Text-Generation-Summarization
+cd "IndabaX25/LLMs for Text Generation Summarization"
 
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
@@ -81,8 +96,6 @@ The workshop is divided into three main parts:
 - **Advanced Control Parameters**: Learn to control summary length, style, and focus
 - **Comprehensive Evaluation**: Go beyond ROUGE with factual consistency and semantic similarity
 - **Multi-Stage Pipelines**: Combine techniques for more effective summarization
-
-
 
 ## Facilitators
 
