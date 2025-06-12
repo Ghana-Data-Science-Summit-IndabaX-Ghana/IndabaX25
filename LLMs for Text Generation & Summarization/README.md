@@ -2,16 +2,26 @@
 
 This repository contains materials for a comprehensive workshop on leveraging Large Language Models (LLMs) for text generation and summarization tasks.
 
+---
+
 ## Overview
 
-The workshop explores modern approaches to text summarization using transformer-based architectures, covering both extractive and abstractive techniques. Participants will gain practical experience implementing multi-stage summarization pipelines and evaluating their quality using various metrics.
+This workshop explores modern approaches to text summarization using transformer-based architectures, covering both extractive and abstractive techniques. Participants will gain practical experience implementing multi-stage summarization pipelines, controlling generation parameters, and evaluating summary quality using various metrics.
 
-## Workshop Objectives
+---
 
-- **You will be able to compare multiple summarization approaches**: Understand and apply extractive, abstractive, and hybrid techniques for text summarization.
-- **You will be able to control summary generation**: Learn how to adjust summary length, style, and focus using advanced control parameters.
-- **You will be able to evaluate summaries comprehensively**: Go beyond ROUGE by assessing factual consistency and semantic similarity.
-- **You will be able to build multi-stage summarization pipelines**: Combine different techniques to create more effective summarization systems.
+## Learning Objectives
+
+By the end of this workshop, you will be able to:
+
+- **Compare multiple summarization approaches:** Understand and apply extractive, abstractive, and hybrid techniques for text summarization.
+- **Control summary generation:** Adjust summary length, style, and focus using advanced control parameters (temperature, top-k, top-p, etc.).
+- **Evaluate summaries comprehensively:** Go beyond ROUGE by assessing factual consistency, semantic similarity, and human-centric metrics.
+- **Build multi-stage summarization pipelines:** Combine different techniques to create more effective summarization systems.
+- **Handle complex and multimodal documents:** Summarize long, multi-document, and multimodal (text + images) content.
+- **Engineer effective prompts:** Use prompt engineering frameworks (like CO-STAR) for structured and controlled output.
+
+---
 
 ## Table of Contents
 
@@ -21,42 +31,50 @@ The workshop explores modern approaches to text summarization using transformer-
 4. [Tutorial Outline](#tutorial-outline)
 5. [Key Features](#key-features)
 6. [Facilitators](#facilitators)
+7. [Useful Resources](#useful-resources)
+
+---
 
 ## Prerequisites
 
 Before attending the workshop, participants should:
+
 - Have basic knowledge of Python programming
 - Be familiar with fundamental NLP concepts
-- Complete the pre-reading materials (see [PRE-TUTORIAL.md](PRE-TUTORIAL.md))
+- Complete the pre-reading materials ([PRE-TUTORIAL.md](PRE-TUTORIAL.md))
 
-## Environment setup
+---
 
-### Assumptions & Requirements
+## Installation
 
-- **Operating System**: This workshop is designed for Linux, macOS, or Windows (with WSL recommended for Windows users).
-- **Python**: Python 3.8 or higher should be installed on your system. [Download Python](https://www.python.org/downloads/)
-- **pip**: Python's package manager (pip) should be available. It is included by default with most Python installations.
-- **venv**: The built-in Python virtual environment tool (`venv`) is used for environment isolation. No additional installation is needed if you have Python 3.8+.
-- **git**: Required for cloning the repository. [Download Git](https://git-scm.com/downloads)
+**Assumptions & Requirements:**
 
-To set up the environment for this workshop:
+- **Operating System:** Linux, macOS, or Windows (with WSL recommended for Windows users)
+- **Python:** 3.8 or higher ([Download Python](https://www.python.org/downloads/))
+- **pip:** Python's package manager (included by default)
+- **venv:** For environment isolation (included with Python 3.8+)
+- **git:** For cloning the repository ([Download Git](https://git-scm.com/downloads))
+
+**Setup Steps:**
 
 ```bash
 # Clone the repository
 git clone https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX25.git
-cd "IndabaX25/LLMs for Text Generation Summarization"
+cd "IndabaX25/LLMs for Text Generation & Summarization"
 
-# Create and activate a virtual environment (optional but recommended)
+# Create and activate a virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install required packages
 pip install -r requirements.txt
 
 # Set up environment variables
-# Create a .env file with the following:
+# Create a .env file with:
 # OPENROUTER_API_KEY=your_api_key_here
 ```
+
+---
 
 ## Project Structure
 
@@ -68,6 +86,8 @@ pip install -r requirements.txt
 ├── articles/                                        # Contains articles
 └── images/                                         # Images for visualization
 ```
+
+---
 
 ## Tutorial Outline
 
@@ -90,12 +110,16 @@ The workshop is divided into three main parts:
 - Advanced evaluation beyond ROUGE
 - Practical exercises for building custom systems
 
+---
+
 ## Key Features
 
 - **Multiple Summarization Approaches**: Compare extractive, abstractive, and hybrid techniques
 - **Advanced Control Parameters**: Learn to control summary length, style, and focus
 - **Comprehensive Evaluation**: Go beyond ROUGE with factual consistency and semantic similarity
 - **Multi-Stage Pipelines**: Combine techniques for more effective summarization
+
+---
 
 ## Facilitators
 
@@ -106,3 +130,10 @@ LinkedIn: [Nana Sam Yeboah](https://www.linkedin.com/in/nana-sam-yeboah-0b664484
 **Audrey Eyram Agbeve**  
 Email: audreyagbeve02@gmail.com  
 LinkedIn: [Audrey (Eyram) Agbeve](https://www.linkedin.com/in/audreyagbeve02/)
+
+---
+
+## Useful Resources
+
+- [Hugging Face Transformers](https://huggingface.co/transformers/)
+- [CO-STAR Prompt Engineering Framework](https://github.com/co-star-framework/co-star)
