@@ -43,15 +43,13 @@ These fun exercises will test what you’ve learned:
 ---
 
 ## 📫 Facilitators
-Eugene Tettey Ayerkain
-📧 Email: [ugeneayerkain@gmail.com]  
-🌍 LinkedIn: [https://www.linkedin.com/in/eugene-tettey/]
+**Eugene Tettey Ayerkain**  
+📧 [Email](mailto:ugeneayerkain@gmail.com)  
+🌍 [LinkedIn](https://www.linkedin.com/in/eugene-tettey/)
 
-
-Rahmat Akintola
-
-📧 Email: [akintolarahmah@gmail.com]
-🌍 LinkedIn: [https://www.linkedin.com/in/akintolaramota/]
+**Rahmat Akintola**  
+📧 [Email](mailto:akintolarahmah@gmail.com)  
+🌍 [LinkedIn](https://www.linkedin.com/in/akintolaramota/)
 
 
 ---
