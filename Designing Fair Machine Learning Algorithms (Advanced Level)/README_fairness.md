@@ -1,6 +1,6 @@
 # Fairness Evaluation and Mitigation in Machine Learning
 
-This repository demonstrates how to evaluate and mitigate unfairness in binary classification models using the [Fairlearn](https://fairlearn.org/) library. The focus is on assessing disparities across sensitive groups (e.g., `SEX`) and applying mitigation strategies such as **postprocessing with `ThresholdOptimizer`** to improve fairness.
+This repository demonstrates how to measure and mitigate unfairness in binary classification models using the [Fairlearn](https://fairlearn.org/) library. The focus is on assessing disparities across sensitive groups (e.g., `SEX`) and applying mitigation strategies such as **postprocessing with `ThresholdOptimizer`** to improve fairness.
 
 ## 📌 Key Features
 
