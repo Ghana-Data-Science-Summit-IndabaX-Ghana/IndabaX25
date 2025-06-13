@@ -24,7 +24,7 @@ and relatable way, using everyday examples from Ghana and Africa.
 
 ## 🎯 Challenges
 
-These fun exercises will test what you’ve learned:
+In addition to exercises in the tutorial, these fun exercises will test what you’ve learned:
 
 1. **Chop Bar Menu System**  
    - Display food menu  
