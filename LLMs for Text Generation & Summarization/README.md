@@ -31,7 +31,6 @@ By the end of this workshop, you will be able to:
 4. [Tutorial Outline](#tutorial-outline)
 5. [Key Features](#key-features)
 6. [Facilitators](#facilitators)
-7. [Useful Resources](#useful-resources)
 
 ---
 
@@ -84,7 +83,7 @@ pip install -r requirements.txt
 ├── requirements.txt                                # Python dependencies
 ├── PRE-TUTORIAL.md                                 # Pre-reading materials
 ├── articles/                                        # Contains articles
-└── images/                                         # Images for visualization
+└── images/                                         # Images for multimodal summarization
 ```
 
 ---
@@ -93,28 +92,30 @@ pip install -r requirements.txt
 
 The workshop is divided into three main parts:
 
-### Part I: Architectural Overview and Extractive Summarization
+### Part I: Foundations
 - Understanding transformer architecture
 - Categories of LLMs (Decoder-only, Encoder-only, Encoder-Decoder)
-- Implementing extractive summarization
+- Basic Text Generation
+
 - Establishing evaluation metrics (ROUGE, BLEU)
 
-### Part II: Abstractive Summarization & Control Parameters
-- Implementing BART and T5 models for abstractive summarization
-- Comparing with autoregressive models
-- Controlling summary generation (length, style, focus)
+### Part II: Core Summarization Techniques
+- Extractive summarization
+- Abstractive Summarization & Control Parameters
+- Evaluation metrics for summarization
+
 - Building multi-stage summarization pipelines
 
-### Part III: Advanced Techniques
+### Part III: Advanced Applications
+- Complex and MultiDocument Summarization
 - Multimodal summarization (text + images)
-- Advanced evaluation beyond ROUGE
 - Practical exercises for building custom systems
 
 ---
 
 ## Key Features
 
-- **Multiple Summarization Approaches**: Compare extractive, abstractive, and hybrid techniques
+- **Multiple Summarization Approaches**: Compare extractive and abstractive techniques
 - **Advanced Control Parameters**: Learn to control summary length, style, and focus
 - **Comprehensive Evaluation**: Go beyond ROUGE with factual consistency and semantic similarity
 - **Multi-Stage Pipelines**: Combine techniques for more effective summarization
@@ -132,8 +133,3 @@ Email: audreyagbeve02@gmail.com
 LinkedIn: [Audrey (Eyram) Agbeve](https://www.linkedin.com/in/audreyagbeve02/)
 
 ---
-
-## Useful Resources
-
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
-- [CO-STAR Prompt Engineering Framework](https://github.com/co-star-framework/co-star)
