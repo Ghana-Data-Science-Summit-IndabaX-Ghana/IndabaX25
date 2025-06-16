@@ -1,0 +1,7 @@
+Subject,Question,Response
+Time Travel Ethics,Should time travelers be allowed to invest in the stock market?,"No, it creates temporal imbalance and unfair economic advantage, violating ChronoCode 42B."
+Time Travel Ethics,Can altering a minor historical event avoid paradoxes?,"Even small changes can ripple unpredictably, risking causality collapse."
+Human Psychology,Why do people procrastinate despite knowing the consequences?,"It’s often due to fear of failure, task aversion, or dopamine-driven preference for instant rewards."
+Human Psychology,How does social media affect self-esteem?,"Frequent use can lead to social comparison, which may lower self-esteem over time."
+Programming,What’s the difference between a list and a tuple in Python?,Lists are mutable and dynamic; tuples are immutable and usually faster for fixed data.
+Programming,Why is recursion considered risky in programming?,It can lead to stack overflow if not properly managed with base cases or depth limits.

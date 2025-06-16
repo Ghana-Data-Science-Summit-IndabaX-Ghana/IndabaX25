@@ -44,7 +44,8 @@ Before attending the workshop, participants should:
 
 ---
 
-## Installation
+## Installation <!-- This might be better as Environment Setup -->
+
 
 **Assumptions & Requirements:**
 
@@ -59,7 +60,9 @@ Before attending the workshop, participants should:
 ```bash
 # Clone the repository
 git clone https://github.com/Ghana-Data-Science-Summit-IndabaX-Ghana/IndabaX25.git
+
 cd "IndabaX25/LLMs for Text Generation & Summarization"
+
 
 # Create and activate a virtual environment (recommended)
 python -m venv venv
@@ -110,6 +113,7 @@ The workshop is divided into three main parts:
 - Complex and MultiDocument Summarization
 - Multimodal summarization (text + images)
 - Practical exercises for building custom systems
+
 
 ---
 
