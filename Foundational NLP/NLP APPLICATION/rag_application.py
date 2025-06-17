@@ -14,6 +14,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from dotenv import load_dotenv
 
 # Load environment variables (e.g., for HuggingFace API key)
+# You would need an OPENAI API KEY 
+
 load_dotenv()
 
 # CSV Loader
@@ -99,7 +101,7 @@ def build_rag_pipeline(directory: str):
     # Step 4: Set up retriever
     retriever = vector_store.as_retriever(search_kwargs={"k": 3})
 
-    # Step 5: Set up language model
+    # Step 5: Set up language model, this requires an OPENAI API KEY
     llm = ChatOpenAI(
         model="gpt-4o-mini", 
         temperature=0.7,
@@ -129,7 +131,7 @@ def query_rag(rag_chain, question: str):
 
 # Usage
 if __name__ == "__main__":
-    directory = "/Users/nanakwame/Downloads/indaba/IndabaX251/Foundational NLP/data"
+    directory = "../data/"
     rag_chain = build_rag_pipeline(directory)
 
     # Example queries
