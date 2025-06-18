@@ -1,0 +1,29 @@
+
+Abstract
+Background: Seeking online health information can empower individuals to better understand their health concerns, facilitating
+their ability to manage their health conditions more effectively. It has the potential to change the likelihood and frequency of
+health service usage. Although existing literature has demonstrated the prevalence of seeking online health information among
+different populations, the factors affecting online health information perception and discussions on the associations between
+seeking online health information and health service utilization are limited.
+Objective: We analyzed the associations between online health information seeking behavior and health service utilization, as
+well as the online health information perception delivery mechanism.
+Methods: We analyzed data from the Chinese General Social Survey, the first national representative survey conducted in
+mainland China. The independent variable was the online health information seeking behavior. The outcome variable was health
+service utilization by the respondents, and online health information perception was selected as the mediating variable in this
+analysis. Factor analysis was conducted to obtain online health information perception. Multiple regressions were performed to
+investigate the effect of online health information seeking behavior on physician visits. Bootstrap methods were conducted to
+test the mediation effects of online health information perception.
+Results: This analysis included 1475 cases. Among the participants, 939 (63.66%) sought online health information in the last
+12 months. The mean age of the respondents was 46.72 (SD 15.86) years, and 794 (53.83%) were females. After controlling for
+other variables, individuals with online health information seeking behaviors showed 0.289 times more outpatient visits (P=.003),
+0.131 times more traditional Chinese medicine outpatient visits (P=.01), and 0.158 times more Western medicine outpatient visits
+(P=.007) over the past year compared to those who did not seek health information online. Additionally, multiple regression
+analyses revealed statistically significant effects of gender, age, and health status on physician visits. The total effect revealed
+that seeking online health information significantly influenced the total physician visits (β=0.290; P=.003), indicating a certain
+correlation between online health information seeking behavior and physician visits. Seeking online health information had a
+significant positive impact on the perception (β=0.265; P<.001). The mediation effects analysis identified that online health
+information perception led to a significant increase in physician visits with the increase in the online health information seeking
+behaviors (β=0.232; P=.02).
+Conclusions: The online health information perception of an individual influences the effect online health information seeking
+has on the frequency of physician visits. The online health information seeking behavior impacts outpatient service utilization
+both directly and indirectly through online health information perception and significantly increases the frequency of clinic visits
