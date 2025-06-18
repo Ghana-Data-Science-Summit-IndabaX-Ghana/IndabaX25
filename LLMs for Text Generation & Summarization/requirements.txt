@@ -5,3 +5,5 @@ scikit-learn
 python-dotenv
 openai
 transformers
+whisper
+yt-dlp
